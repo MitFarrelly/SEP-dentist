@@ -1,0 +1,41 @@
+\\Studentfiles.win.canberra.edu.au\Homes$\u3086511\Windows Profile\Desktop\U3086511 - KangrooUniversity\Code\KangrooUniversity\bin\KangrooUniversity.dll
+\\Studentfiles.win.canberra.edu.au\Homes$\u3086511\Windows Profile\Desktop\U3086511 - KangrooUniversity\Code\KangrooUniversity\bin\KangrooUniversity.pdb
+\\Studentfiles.win.canberra.edu.au\Homes$\u3086511\Windows Profile\Desktop\U3086511 - KangrooUniversity\Code\KangrooUniversity\obj\Debug\KangrooUniversity.dll
+\\Studentfiles.win.canberra.edu.au\Homes$\u3086511\Windows Profile\Desktop\U3086511 - KangrooUniversity\Code\KangrooUniversity\obj\Debug\KangrooUniversity.pdb
+F:\Uni\7165 (Object Oriented Software Design)\Assignement 3\Master Page\KangrooUniversity\bin\KangrooUniversity.dll
+F:\Uni\7165 (Object Oriented Software Design)\Assignement 3\Master Page\KangrooUniversity\bin\KangrooUniversity.pdb
+F:\Uni\7165 (Object Oriented Software Design)\Assignement 3\Master Page\KangrooUniversity\obj\Debug\KangrooUniversity.dll
+F:\Uni\7165 (Object Oriented Software Design)\Assignement 3\Master Page\KangrooUniversity\obj\Debug\KangrooUniversity.pdb
+F:\Group Implement\ARMS\ARMS\bin\KangrooUniversity.dll
+F:\Group Implement\ARMS\ARMS\bin\KangrooUniversity.pdb
+F:\Group Implement\ARMS\ARMS\bin\BusinessLayer.dll
+F:\Group Implement\ARMS\ARMS\bin\ControllerClass.dll
+F:\Group Implement\ARMS\ARMS\bin\PersistantLayer.dll
+F:\Group Implement\ARMS\ARMS\bin\BusinessLayer.pdb
+F:\Group Implement\ARMS\ARMS\bin\ControllerClass.pdb
+F:\Group Implement\ARMS\ARMS\bin\PersistantLayer.pdb
+F:\Group Implement\ARMS\ARMS\obj\Debug\ARMSWeb.csprojResolveAssemblyReference.cache
+F:\Group Implement\ARMS\ARMS\obj\Debug\KangrooUniversity.dll
+F:\Group Implement\ARMS\ARMS\obj\Debug\KangrooUniversity.pdb
+C:\Users\Mitchell\Desktop\Group Implement\ARMS\ARMS\bin\KangrooUniversity.dll
+C:\Users\Mitchell\Desktop\Group Implement\ARMS\ARMS\bin\KangrooUniversity.pdb
+C:\Users\Mitchell\Desktop\Group Implement\ARMS\ARMS\bin\BusinessLayer.dll
+C:\Users\Mitchell\Desktop\Group Implement\ARMS\ARMS\bin\ControllerClass.dll
+C:\Users\Mitchell\Desktop\Group Implement\ARMS\ARMS\bin\PersistantLayer.dll
+C:\Users\Mitchell\Desktop\Group Implement\ARMS\ARMS\bin\BusinessLayer.pdb
+C:\Users\Mitchell\Desktop\Group Implement\ARMS\ARMS\bin\ControllerClass.pdb
+C:\Users\Mitchell\Desktop\Group Implement\ARMS\ARMS\bin\PersistantLayer.pdb
+C:\Users\Mitchell\Desktop\Group Implement\ARMS\ARMS\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Mitchell\Desktop\Group Implement\ARMS\ARMS\obj\Debug\KangrooUniversity.dll
+C:\Users\Mitchell\Desktop\Group Implement\ARMS\ARMS\obj\Debug\KangrooUniversity.pdb
+F:\Programming\Group Implement\ARMS\ARMS\bin\KangrooUniversity.dll
+F:\Programming\Group Implement\ARMS\ARMS\bin\KangrooUniversity.pdb
+F:\Programming\Group Implement\ARMS\ARMS\bin\BusinessLayer.dll
+F:\Programming\Group Implement\ARMS\ARMS\bin\ControllerClass.dll
+F:\Programming\Group Implement\ARMS\ARMS\bin\PersistantLayer.dll
+F:\Programming\Group Implement\ARMS\ARMS\bin\BusinessLayer.pdb
+F:\Programming\Group Implement\ARMS\ARMS\bin\ControllerClass.pdb
+F:\Programming\Group Implement\ARMS\ARMS\bin\PersistantLayer.pdb
+F:\Programming\Group Implement\ARMS\ARMS\obj\Debug\ARMSWeb.csprojResolveAssemblyReference.cache
+F:\Programming\Group Implement\ARMS\ARMS\obj\Debug\KangrooUniversity.dll
+F:\Programming\Group Implement\ARMS\ARMS\obj\Debug\KangrooUniversity.pdb

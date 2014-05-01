@@ -10,7 +10,7 @@ namespace PersistantLayer
     public class DatabaseHandler
     {
         OleDbConnection oleConn;
-        string connString = @"Provider=Microsoft.ACE.OLEDB.12.0; Data source=  "; //add source
+        string connString = @"Provider=Microsoft.ACE.OLEDB.12.0; Data source= F:\\DentalClinic\\DentalClinic.accdb"; //add source
 
         public DatabaseHandler()
         {
@@ -24,5 +24,25 @@ namespace PersistantLayer
             {
             }
         }
+
+        public void test(string test)
+        {
+            try
+            {
+                oleConn.Open();
+                string sql = "INSERT INTO [User] (sf) VALUES ( '" + test + "' )";
+                       
+                OleDbCommand cmd = new OleDbCommand(sql, oleConn);
+                OleDbDataReader reader = cmd.ExecuteReader();
+            }
+            catch (Exception ex)
+            {
+            }
+            finally
+            {
+                oleConn.Close();
+            }
+        }
+
     }
 }

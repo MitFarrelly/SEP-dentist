@@ -1,0 +1,7 @@
+F:\DentalClinic\BusinessLayer\bin\Debug\BusinessLayer.dll
+F:\DentalClinic\BusinessLayer\bin\Debug\BusinessLayer.pdb
+F:\DentalClinic\BusinessLayer\bin\Debug\PersistantLayer.dll
+F:\DentalClinic\BusinessLayer\bin\Debug\PersistantLayer.pdb
+F:\DentalClinic\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
+F:\DentalClinic\BusinessLayer\obj\Debug\BusinessLayer.dll
+F:\DentalClinic\BusinessLayer\obj\Debug\BusinessLayer.pdb

@@ -1,0 +1,5 @@
+F:\DentalClinic\PersistantLayer\bin\Debug\PersistantLayer.dll
+F:\DentalClinic\PersistantLayer\bin\Debug\PersistantLayer.pdb
+F:\DentalClinic\PersistantLayer\obj\Debug\PersistantLayer.csprojResolveAssemblyReference.cache
+F:\DentalClinic\PersistantLayer\obj\Debug\PersistantLayer.dll
+F:\DentalClinic\PersistantLayer\obj\Debug\PersistantLayer.pdb

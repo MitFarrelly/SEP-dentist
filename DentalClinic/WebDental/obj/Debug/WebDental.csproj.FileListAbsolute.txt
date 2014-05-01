@@ -1,0 +1,9 @@
+F:\DentalClinic\WebDental\bin\WebSwift.dll
+F:\DentalClinic\WebDental\bin\WebSwift.pdb
+F:\DentalClinic\WebDental\bin\BusinessLayer.dll
+F:\DentalClinic\WebDental\bin\PersistantLayer.dll
+F:\DentalClinic\WebDental\bin\BusinessLayer.pdb
+F:\DentalClinic\WebDental\bin\PersistantLayer.pdb
+F:\DentalClinic\WebDental\obj\Debug\WebDental.csprojResolveAssemblyReference.cache
+F:\DentalClinic\WebDental\obj\Debug\WebSwift.dll
+F:\DentalClinic\WebDental\obj\Debug\WebSwift.pdb

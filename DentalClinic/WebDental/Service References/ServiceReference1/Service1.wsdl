@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Service1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:53915/Service1.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:53915/Service1.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService1_CreateCustomer_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateCustomer" />
+  </wsdl:message>
+  <wsdl:message name="IService1_CreateCustomer_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateCustomerResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteCustomer_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteCustomer" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteCustomer_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteCustomerResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateCustomer_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateCustomer" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateCustomer_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateCustomerResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SearchCustomer_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchCustomer" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SearchCustomer_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchCustomerResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ListCustomers_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListCustomers" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ListCustomers_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListCustomersResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ListPremium_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListPremium" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ListPremium_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListPremiumResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ListPolicy_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListPolicy" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ListPolicy_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListPolicyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Login_InputMessage">
+    <wsdl:part name="parameters" element="tns:Login" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Login_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Logout_InputMessage">
+    <wsdl:part name="parameters" element="tns:Logout" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Logout_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LogoutResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_CreatePremium_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreatePremium" />
+  </wsdl:message>
+  <wsdl:message name="IService1_CreatePremium_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreatePremiumResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeletePremium_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeletePremium" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeletePremium_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeletePremiumResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdatePremium_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatePremium" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdatePremium_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatePremiumResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SearchPremium_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchPremium" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SearchPremium_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchPremiumResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ValidateName_InputMessage">
+    <wsdl:part name="parameters" element="tns:ValidateName" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ValidateName_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ValidateNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ValidateNumber_InputMessage">
+    <wsdl:part name="parameters" element="tns:ValidateNumber" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ValidateNumber_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ValidateNumberResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ValidatePassword_InputMessage">
+    <wsdl:part name="parameters" element="tns:ValidatePassword" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ValidatePassword_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ValidatePasswordResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ValidateAddress_InputMessage">
+    <wsdl:part name="parameters" element="tns:ValidateAddress" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ValidateAddress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ValidateAddressResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IService1">
+    <wsdl:operation name="CreateCustomer">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/CreateCustomer" message="tns:IService1_CreateCustomer_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/CreateCustomerResponse" message="tns:IService1_CreateCustomer_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteCustomer">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DeleteCustomer" message="tns:IService1_DeleteCustomer_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DeleteCustomerResponse" message="tns:IService1_DeleteCustomer_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCustomer">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UpdateCustomer" message="tns:IService1_UpdateCustomer_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpdateCustomerResponse" message="tns:IService1_UpdateCustomer_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchCustomer">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SearchCustomer" message="tns:IService1_SearchCustomer_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SearchCustomerResponse" message="tns:IService1_SearchCustomer_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListCustomers">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ListCustomers" message="tns:IService1_ListCustomers_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ListCustomersResponse" message="tns:IService1_ListCustomers_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListPremium">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ListPremium" message="tns:IService1_ListPremium_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ListPremiumResponse" message="tns:IService1_ListPremium_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListPolicy">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ListPolicy" message="tns:IService1_ListPolicy_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ListPolicyResponse" message="tns:IService1_ListPolicy_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Login">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Login" message="tns:IService1_Login_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/LoginResponse" message="tns:IService1_Login_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Logout">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Logout" message="tns:IService1_Logout_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/LogoutResponse" message="tns:IService1_Logout_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreatePremium">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/CreatePremium" message="tns:IService1_CreatePremium_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/CreatePremiumResponse" message="tns:IService1_CreatePremium_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeletePremium">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DeletePremium" message="tns:IService1_DeletePremium_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DeletePremiumResponse" message="tns:IService1_DeletePremium_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePremium">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UpdatePremium" message="tns:IService1_UpdatePremium_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpdatePremiumResponse" message="tns:IService1_UpdatePremium_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchPremium">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SearchPremium" message="tns:IService1_SearchPremium_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SearchPremiumResponse" message="tns:IService1_SearchPremium_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ValidateName">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ValidateName" message="tns:IService1_ValidateName_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ValidateNameResponse" message="tns:IService1_ValidateName_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ValidateNumber">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ValidateNumber" message="tns:IService1_ValidateNumber_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ValidateNumberResponse" message="tns:IService1_ValidateNumber_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ValidatePassword">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ValidatePassword" message="tns:IService1_ValidatePassword_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ValidatePasswordResponse" message="tns:IService1_ValidatePassword_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ValidateAddress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ValidateAddress" message="tns:IService1_ValidateAddress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ValidateAddressResponse" message="tns:IService1_ValidateAddress_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService1">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CreateCustomer">
+      <soap:operation soapAction="http://tempuri.org/IService1/CreateCustomer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteCustomer">
+      <soap:operation soapAction="http://tempuri.org/IService1/DeleteCustomer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCustomer">
+      <soap:operation soapAction="http://tempuri.org/IService1/UpdateCustomer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearchCustomer">
+      <soap:operation soapAction="http://tempuri.org/IService1/SearchCustomer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListCustomers">
+      <soap:operation soapAction="http://tempuri.org/IService1/ListCustomers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListPremium">
+      <soap:operation soapAction="http://tempuri.org/IService1/ListPremium" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListPolicy">
+      <soap:operation soapAction="http://tempuri.org/IService1/ListPolicy" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Login">
+      <soap:operation soapAction="http://tempuri.org/IService1/Login" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Logout">
+      <soap:operation soapAction="http://tempuri.org/IService1/Logout" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreatePremium">
+      <soap:operation soapAction="http://tempuri.org/IService1/CreatePremium" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeletePremium">
+      <soap:operation soapAction="http://tempuri.org/IService1/DeletePremium" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePremium">
+      <soap:operation soapAction="http://tempuri.org/IService1/UpdatePremium" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearchPremium">
+      <soap:operation soapAction="http://tempuri.org/IService1/SearchPremium" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValidateName">
+      <soap:operation soapAction="http://tempuri.org/IService1/ValidateName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValidateNumber">
+      <soap:operation soapAction="http://tempuri.org/IService1/ValidateNumber" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValidatePassword">
+      <soap:operation soapAction="http://tempuri.org/IService1/ValidatePassword" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValidateAddress">
+      <soap:operation soapAction="http://tempuri.org/IService1/ValidateAddress" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="BasicHttpBinding_IService1" binding="tns:BasicHttpBinding_IService1">
+      <soap:address location="http://localhost:53915/Service1.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

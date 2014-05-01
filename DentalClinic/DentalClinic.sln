@@ -1,9 +1,11 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual C# Express 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{BC445EF0-9319-4BAB-89FF-AA38F3A1DCC6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersistantLayer", "PersistantLayer\PersistantLayer.csproj", "{62D3B824-ECE3-43B2-9ADD-2034922BC5EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebDental", "WebDental\WebDental.csproj", "{49442FD0-A94B-42C9-976C-6DFBBEE6AB1A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,16 @@ Global
 		{62D3B824-ECE3-43B2-9ADD-2034922BC5EC}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{62D3B824-ECE3-43B2-9ADD-2034922BC5EC}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{62D3B824-ECE3-43B2-9ADD-2034922BC5EC}.Release|x86.ActiveCfg = Release|Any CPU
+		{49442FD0-A94B-42C9-976C-6DFBBEE6AB1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49442FD0-A94B-42C9-976C-6DFBBEE6AB1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49442FD0-A94B-42C9-976C-6DFBBEE6AB1A}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{49442FD0-A94B-42C9-976C-6DFBBEE6AB1A}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{49442FD0-A94B-42C9-976C-6DFBBEE6AB1A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{49442FD0-A94B-42C9-976C-6DFBBEE6AB1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49442FD0-A94B-42C9-976C-6DFBBEE6AB1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49442FD0-A94B-42C9-976C-6DFBBEE6AB1A}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{49442FD0-A94B-42C9-976C-6DFBBEE6AB1A}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{49442FD0-A94B-42C9-976C-6DFBBEE6AB1A}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

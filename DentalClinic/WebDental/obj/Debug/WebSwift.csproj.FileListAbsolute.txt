@@ -1,0 +1,10 @@
+F:\Wcf_Customer\WebSwift\bin\WebSwift.dll
+F:\Wcf_Customer\WebSwift\bin\WebSwift.pdb
+F:\Wcf_Customer\WebSwift\obj\Debug\WebSwift.dll
+F:\Wcf_Customer\WebSwift\obj\Debug\WebSwift.pdb
+F:\Wcf_Customer\WebSwift\obj\Debug\WebSwift.csprojResolveAssemblyReference.cache
+F:\SSA_Assigment_2\SwiftCover\WebSwift\bin\WebSwift.dll
+F:\SSA_Assigment_2\SwiftCover\WebSwift\bin\WebSwift.pdb
+F:\SSA_Assigment_2\SwiftCover\WebSwift\obj\Debug\WebSwift.csprojResolveAssemblyReference.cache
+F:\SSA_Assigment_2\SwiftCover\WebSwift\obj\Debug\WebSwift.dll
+F:\SSA_Assigment_2\SwiftCover\WebSwift\obj\Debug\WebSwift.pdb

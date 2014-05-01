@@ -54,6 +54,12 @@
     <Compile Include="Validation.cs" />
     <Compile Include="WorkType.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PersistantLayer\PersistantLayer.csproj">
+      <Project>{62d3b824-ece3-43b2-9add-2034922bc5ec}</Project>
+      <Name>PersistantLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
